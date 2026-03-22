@@ -1,16 +1,45 @@
+## Laboratorio de Investigación en Robótica Inteligente y Social
+```mermaid
+---
+config:
+  flowchart:
+    htmlLabels: false
+---
 flowchart TD
+    A["Laboratorio de Investigación
+    en Robótica Inteligente y Social"]
 
-    A["Mi Organización\n**Robótica**"]
+    A-->B("Rescue Robot
+    **Equipo**")
+    A-->C("Robots Limpiadores de Playa
+    **Equipo**")
+    A-->D("Robot Acuático
+    **Equipo**")
 
-    A --> B("Rescue Robot\n**Equipo**")
-    A --> C("Robots Limpiadores\n**Equipo**")
-    A --> D("Robot Acuático\n**Equipo**")
+    B-->J[(Repo Rescue Robot)]-->F("
+    - Geovani Said
+    - Jordan Chavez
+    - Vivian Reyes
+    - Kenia Danitza
+    - Homero Aguilar
+    - Jacqueline Altamirano
+    ")
 
-    B --> J[(Repo Rescue Robot)]
-    J --> F("Geovani Said · Jordan Chavez\nVivian Reyes · Kenia Danitza\nHomero Aguilar · Jacqueline Altamirano")
+    C-->K[(Repo Limpiadores)]-->G("
+    - Jacob Angel
+    - Jose Salazar
+    - Sofia Sanchez
+    - Pablo Santiago
+    ")
 
-    C --> K[(Repo Limpiadores)]
-    K --> G("Jacob Angel · Jose Salazar\nSofia Sanchez · Pablo Santiago")
-
-    D --> L[(Repo Acuático)]
-    L --> H("Oscar Ramirez · Uriel Peralta\nDiego Lucas · Dario Lazaro\nVictor Diaz · Leonel Cruz\nDafne Celis · Juan Baltazar")
+    D-->L[(Repo Acuático)]-->H("
+    - Oscar Ramirez
+    - Uriel Peralta
+    - Diego Lucas
+    - Dario Lazaro
+    - Victor Diaz
+    - Leonel Cruz
+    - Dafne Celis
+    - Juan Baltazar
+    ")
+```
