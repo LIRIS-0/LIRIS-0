@@ -1,16 +1,16 @@
-## Hi there 👋
+flowchart TD
 
-<!--
-**LIRIS-0/LIRIS-0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    A["Mi Organización\n**Robótica**"]
 
-Here are some ideas to get you started:
+    A --> B("Rescue Robot\n**Equipo**")
+    A --> C("Robots Limpiadores\n**Equipo**")
+    A --> D("Robot Acuático\n**Equipo**")
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    B --> J[(Repo Rescue Robot)]
+    J --> F("Geovani Said · Jordan Chavez\nVivian Reyes · Kenia Danitza\nHomero Aguilar · Jacqueline Altamirano")
+
+    C --> K[(Repo Limpiadores)]
+    K --> G("Jacob Angel · Jose Salazar\nSofia Sanchez · Pablo Santiago")
+
+    D --> L[(Repo Acuático)]
+    L --> H("Oscar Ramirez · Uriel Peralta\nDiego Lucas · Dario Lazaro\nVictor Diaz · Leonel Cruz\nDafne Celis · Juan Baltazar")
